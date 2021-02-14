@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="ko_jMenuBar">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="ko_jMenuPlik">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Plik"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="ko_jMenuItemPoka&#x17c;His">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Poka&#x17c; Histori&#x119;"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="ko_jMenuItemZapisz">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Zapisz Dzia&#x142;anie(KLIKNIJ)"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="ko_jMenuOProgramie">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="O Programie"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="ko_jMenuItemO">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="O Programie(KLIKNIJ)"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="ko_jMenuZamknij">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Zamknij Program"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ZAMKNIJ(KLIKNIJ)"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="ko_jMenuBar"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ko_jPanel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ko_jPanel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="ko_jPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="ko_jRadioButtonMetry" pref="69" max="32767" attributes="0"/>
+                              <Component id="ko_jRadioButtonCale" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="64" pref="620" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="ko_jLabelOdl" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="ko_jLabelWO" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="ko_jSpinnerOdl" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                              <Component id="ko_jRadioButtonKil" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="ko_jLabelWpt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="ko_jLabelTemperature" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="ko_jRadioButtonF" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="ko_jRadioButtonK" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="ko_jRadioButtonC" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="ko_jSpinnerTem" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="ko_jLabelPrzeliczanieJed" min="-2" pref="586" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ko_jButtonPrzelicz1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="ko_jButtonPrzelicz2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="ko_jLabelPrzeliczanieJed" min="-2" pref="82" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ko_jLabelOdl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="ko_jLabelTemperature" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ko_jLabelWO" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ko_jLabelWpt" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ko_jSpinnerOdl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ko_jSpinnerTem" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ko_jRadioButtonKil" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ko_jRadioButtonC" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ko_jRadioButtonMetry" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ko_jRadioButtonK" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ko_jRadioButtonCale" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Component id="ko_jRadioButtonF" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="17" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ko_jButtonPrzelicz1" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="ko_jButtonPrzelicz2" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="ko_jLabelPrzeliczanieJed">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Przeliczanie Jednostek"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ko_jLabelOdl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Przelicz Odleg&#x142;o&#x15b;&#x107;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ko_jButtonPrzelicz1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PRZELICZ"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ko_jLabelTemperature">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Przelicz Temperatur&#x119;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ko_jButtonPrzelicz2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PRZELICZ"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ko_jLabelWO">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Wprowadz Odleg&#x142;o&#x15b;&#x107;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="ko_jSpinnerOdl">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="ko_jRadioButtonKil">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kilometry"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="ko_jRadioButtonMetry">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Metry"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="ko_jRadioButtonCale">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cale"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ko_jLabelWpt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Wprowadz Temperatur&#x119;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="ko_jSpinnerTem">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="ko_jRadioButtonC">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="ko_jRadioButtonK">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="K"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="ko_jRadioButtonF">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
